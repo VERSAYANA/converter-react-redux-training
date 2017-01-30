@@ -1,0 +1,8 @@
+Meter -> Feet = * 3.2808
+Meter -> Inch = * 39.3701
+
+Feet -> Meter = / 3.2808
+Feet -> Inch = * 12
+
+Inch -> Feet = / 12
+Inch -> Meter = / 39.3701

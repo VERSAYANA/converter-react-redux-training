@@ -1,0 +1,42 @@
+{
+  tabs: [
+    {
+      name: 'Length',
+      active: true,
+      location: 1,
+      units: {
+        source: 10,
+        litre: 20,
+        gallon: 50
+      }
+    {
+      name: 'Pressure',
+      active: false,
+      location: 2,
+      units: {
+        source: 10,
+        litre: 20,
+        gallon: 50
+      }
+    {
+      name: 'Volume',
+      active: false,
+      location: 3,
+      units: {
+        source: 10,
+        litre: 20,
+        gallon: 50
+      }
+    }
+    {
+      name: 'Mass',
+      active: false,
+      location: false,
+      units: {
+        source: 10,
+        litre: 20,
+        gallon: 50
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+body {
+  background-color: white;
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+/*------------------------------------------------------------*/
+#tabs-container {
+  overflow: auto;
+}
+.tabs {
+  display: flex;
+  float: left;
+  width: 25%;
+  padding: 16px 0;
+  background-color: white;
+  border-width: 2px 2px 2px 0;
+  border-color: black;
+  border-style: solid;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+.tabs:hover {
+  background-color: black;
+  color: white;
+}
+.tabs:first-child {
+  border-width: 2px 2px 2px 2px;
+}
+.tabs span {
+  margin: auto;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+/*------------------------------------------------------------*/
+#selector-container {
+  display: flex;
+  clear: both;
+  margin: 20px 0
+}
+#selector {
+  display: inline-block;
+  margin: auto;
+}
+#selector select {
+  background-color: black;
+  color: white;
+  height: 32px;
+  width: 130px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+  padding-left: 8px;
+}
+#selector input {
+  background-color: black;
+  color: white;
+  height: 32px;
+  width: 130px;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+/*------------------------------------------------------------*/
+#units-container {
+  margin: auto;
+}
+.single-unit {
+  width: 270px;
+  /*margin-bottom: 20px;*/
+}
+.single-unit span {
+  width: 90px;
+  display: inline-block;
+}
+.single-unit input {
+  width: 180px;
+  height: 24px;
+}

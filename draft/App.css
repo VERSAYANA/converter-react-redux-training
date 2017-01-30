@@ -1,0 +1,27 @@
+.tabs {
+  display: flex;
+  float: left;
+  width: 25%;
+  padding: 16px 0;
+  background-color: cyan;
+  border-width: 2px 2px 2px 0;
+  border-color: black;
+  border-style: solid;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+.tabs:hover {
+  background-color: black;
+  color: cyan;
+}
+.active-tab {
+  background-color: black;
+  color: cyan;
+}
+.tabs:first-child {
+  border-width: 2px 2px 2px 2px;
+}
+.tab-text {
+  margin: auto;
+}

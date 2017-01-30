@@ -1,0 +1,94 @@
+body {
+  background-color: white;
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+/*------------------------------------------------------------*/
+#tabs-container {
+  overflow: auto;
+}
+.tabs {
+  display: flex;
+  float: left;
+  width: 25%;
+  padding: 16px 0;
+  background-color: white;
+  border-width: 1px 1px 1px 0;
+  border-color: black;
+  border-style: solid;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+.tabs:hover {
+  background-color: black;
+  color: white;
+}
+.tabs:first-child {
+  border-width: 1px 1px 1px 0px;
+}
+.tabs:last-child {
+  border-width: 1px 0px 1px 0px;
+}
+.tabs span {
+  margin: auto;
+}
+.active {
+  background-color: black;
+  color: white;
+}
+/*------------------------------------------------------------*/
+#selector-container {
+  display: flex;
+  clear: both;
+  margin: 35px 0 35px 0;
+}
+#selector {
+  display: inline-block;
+  margin: auto;
+}
+#selector select {
+  background-color: white;
+  color: black;
+  height: 32px;
+  width: 130px;
+  margin-right: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding-left: 8px;
+}
+#selector select:hover {
+  background-color: black;
+  color: white;
+}
+#selector input {
+  background-color: white;
+  color: black;
+  height: 32px;
+  width: 130px;
+  margin-left: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+#selector input:hover {
+  background-color: black;
+  color: white;
+}
+/*------------------------------------------------------------*/
+#units-container {
+  margin: auto;
+}
+.single-unit {
+  width: 270px;
+  margin-bottom: 10px;
+}
+.single-unit span {
+  width: 90px;
+  display: inline-block;
+}
+.single-unit input {
+  width: 180px;
+  height: 24px;
+}
