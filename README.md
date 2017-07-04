@@ -1,3 +1,5 @@
+Very simple unit converter
+You can easily add new types and units to this code
 ```
 yarn
 yarn start
