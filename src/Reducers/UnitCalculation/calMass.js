@@ -2,7 +2,7 @@ const unitMass = (source) => {
   return {
     Gram: source,
     Kilogram: source * 0.001,
-    Pound: source * 0.001,
+    Pound: source * 0.002204,
     Ounce: source * 0.035274,
   }
 };
@@ -23,7 +23,7 @@ const calMass = (unit, value) => {
 
     case 'Pound':
       return {
-        ...unitMass(value / 0.001),
+        ...unitMass(value / 0.002204),
         Pound: value
       }
 
