@@ -8,7 +8,7 @@ const Selector = ({ location, current, invisibleTabs, changeTab }) => {
         <select ref={node => {selectedOption = node}}>
           {invisibleTabs.map((t, i) => <option key={i} value={t.name}>{t.name}</option>)}
         </select>
-        <input type="submit" value="Submit"/>
+        <input type="submit" value="Change Tab"/>
       </form>
       {/* <button onClick={() => changeTab(2, 'Volume')}>Submit</button> */}
     </div>
